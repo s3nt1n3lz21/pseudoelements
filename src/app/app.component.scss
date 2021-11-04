@@ -1,0 +1,28 @@
+// Pseudoelements are used to change the style of a specific part of an element
+// Use double colons
+
+// Style the first line of a paragraph
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+}
+
+// Add another child element after all this elements child elements
+p::after {
+    content: "Element After";
+    color: orange;
+}
+
+// Add another child element before all this elements child elements
+p::before {
+    content: "Element Before";
+    color: green;
+}
+
+// Pseudoclasses are used to change the style of an element when its state changes
+// Use single colon
+
+// Cursor hovering over the element
+p:hover {
+    color: red;
+}

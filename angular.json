@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pseudoelements"
+    }
+  },
+  "defaultProject": "pseudoelements",
+  "cli": {
+    "analytics": false
+  }
 }
